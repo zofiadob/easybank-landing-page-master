@@ -1,0 +1,49 @@
+nav{
+    display: flex;
+    padding: 1.5rem 1.3rem;
+    position: sticky;
+}
+
+.logo-box{
+ width: 70%;
+ display: flex;
+}
+
+.logo{
+    width: 60%;
+}
+
+.ham-box{
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+}
+
+.ham-list{
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    height: 0vh;
+    background: linear-gradient(to bottom, hsl(233, 8%, 62%), transparent);
+}
+
+.ham-list-show{
+    display: block;
+    height: 80vh;
+}
+
+.ham-list ul{
+    list-style: none;
+    padding: .5rem;
+    margin: 1.5rem;
+    background: white;
+    border-radius: 5px;
+}
+
+.ham-list ul li{
+    margin: 1.5rem;
+    color: hsl(233, 26%, 24%);
+}
