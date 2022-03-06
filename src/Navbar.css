@@ -2,6 +2,7 @@ nav{
     display: flex;
     padding: 1.5rem 1.3rem;
     position: sticky;
+    z-index: 2;
 }
 
 .logo-box{
