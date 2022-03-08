@@ -8,3 +8,16 @@ body{
   margin: 0;
   font-family: 'Public Sans';
 }
+
+h1, h2, h3, h4{
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: hsl(233, 26%, 24%);
+  margin: .5em 0;
+}
+
+p{
+  color: hsl(233, 8%, 62%);
+  font-size: .9rem;
+  line-height: 1.5rem;
+}

@@ -1,0 +1,40 @@
+.img-box{
+max-height: 190px;
+display: flex;
+}
+
+.img-box img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px 5px 0 0 ;
+}
+
+.article-text-box{
+    text-align: left;
+    padding: 1rem 1.5rem;
+    padding-bottom: 3rem;
+    background: white;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 1.5rem;
+}
+
+.author{
+    font-size: .6rem;
+    margin: 0;
+}
+
+h2{
+    margin: 2rem 0;
+}
+
+h3{
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.small-text{
+    line-height: 1.1rem;
+    font-size: .8rem;
+    margin: 0;
+}
