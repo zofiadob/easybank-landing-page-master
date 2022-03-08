@@ -1,7 +1,7 @@
 import logo from './images/logo.svg'
 import ham from './images/icon-hamburger.svg'
 import close from './images/icon-close.svg'
-import './Navbar.css'
+import './css/Navbar.css'
 import { useState } from 'react'
 
 

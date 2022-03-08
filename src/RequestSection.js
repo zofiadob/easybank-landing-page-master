@@ -1,7 +1,7 @@
 import React from 'react'
 import './images/bg-intro-mobile.svg'
 import phones from './images/image-mockups.png'
-import './RequestSection.css'
+import './css/RequestSection.css'
 
 export default function RequestSection() {
   return (
