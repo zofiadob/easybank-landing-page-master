@@ -33,6 +33,12 @@ export default function Footer() {
         <div className='button footer-button'>Request Invite</div>
 
         <p className='copyright'>© Easybank. All Rights Reserved</p>
+        
+        <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/zofiadob">Zofia Dobrowolska</a>.
+  </div>
     </footer>
+    
   )
 }

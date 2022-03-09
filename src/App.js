@@ -4,6 +4,7 @@ import RequestSection from './RequestSection';
 import FunctionSection from './FunctionSection';
 import ArticleSection from './ArticleSection';
 import Footer from './Footer';
+import './css/DesktopNavbar.css'
 
 function App() {
   return (

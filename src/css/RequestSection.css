@@ -29,4 +29,9 @@
     font-size: .9rem;
     border-radius: 30px;
     cursor: pointer;
+    transition: opacity .7s ease;
+}
+
+.button:hover{
+    opacity: 60%;
 }
