@@ -1,0 +1,34 @@
+footer{
+    background: hsl(233, 26%, 24%);
+    text-align: center;
+}
+
+.logo{
+    width: 40%;
+    margin: 2.5rem 0 1.5rem 0;
+}
+
+.icon{
+    width: 7%;
+    margin: .45rem;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    color: hsl(0, 0%, 98%);
+    font-size: .9rem;
+}
+
+li{
+    margin: 1rem 0;
+}
+
+.footer-button{
+    margin: 2rem 6.5rem 1.5rem 6.5rem;
+}
+
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}
