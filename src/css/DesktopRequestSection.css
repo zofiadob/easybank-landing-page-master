@@ -37,12 +37,12 @@ h1{
 }
 
 p{
-    font-size: 1.2rem;
+    font-size: 1.12rem;
     line-height: 1.8rem;
 }
 
 .text-section p{
-    padding: 2rem 5rem 2rem 0;
+    padding: 2rem 4.2rem 2rem 0;
 }
 
 .button{
@@ -50,7 +50,8 @@ p{
 }
 
 .request-button{
-    margin: 0 21rem 0 0;
+    width: 160px;
+    margin: 0;
 }
 
 }

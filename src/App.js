@@ -6,6 +6,7 @@ import ArticleSection from './ArticleSection';
 import Footer from './Footer';
 import './css/DesktopNavbar.css'
 import './css/DesktopRequestSection.css'
+import './css/DesktopFunctionSection.css'
 
 function App() {
   return (
