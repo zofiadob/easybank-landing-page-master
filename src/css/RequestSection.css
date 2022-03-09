@@ -1,3 +1,7 @@
+.request-section{
+    display: block;
+}
+
 .phone-box{
     background-image: url('../images/bg-intro-mobile.svg');
     background-repeat: no-repeat;

@@ -13,7 +13,7 @@ export default function RequestSection() {
         <h1>Next generation digital banking</h1>
         <p>Take your financial life online. Your Easybank account will be a one-stop-shop 
             for spending, saving, budgeting, investing, and much more.</p>
-        <div className='button'>Request Invite</div>
+        <div className='button request-button'>Request Invite</div>
         </div>
     </section>
   )
