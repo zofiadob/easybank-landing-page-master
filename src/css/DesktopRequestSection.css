@@ -23,7 +23,6 @@
     top: -20%;
     right: -15%;
     width: 100%;
-    /* display: none; */
     z-index: -1;
 }
 
@@ -54,6 +53,14 @@ p{
 .request-button{
     width: 160px;
     margin: 0;
+}
+
+
+@media screen and (min-width: 1600px){
+    .phones{
+        top: -50%;
+        max-height: 1100px;
+    }
 }
 
 }
