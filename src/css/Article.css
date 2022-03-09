@@ -10,6 +10,10 @@ display: flex;
     border-radius: 5px 5px 0 0 ;
 }
 
+.article{
+    width: 100%;
+}
+
 .article-text-box{
     text-align: left;
     padding: 1rem 1.5rem;

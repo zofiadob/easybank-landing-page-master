@@ -7,6 +7,7 @@ import Footer from './Footer';
 import './css/DesktopNavbar.css'
 import './css/DesktopRequestSection.css'
 import './css/DesktopFunctionSection.css'
+import './css/DesktopArticleSection.css'
 
 function App() {
   return (

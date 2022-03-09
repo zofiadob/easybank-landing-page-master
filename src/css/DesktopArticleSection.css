@@ -1,0 +1,34 @@
+@media screen and (min-width: 1000px){
+
+    .article-section{
+        padding: 6rem 9rem;
+    }
+
+    .arti-box{
+        display: flex;
+        justify-content: center;
+    }
+
+    .article-section{
+        text-align: left;
+    }
+
+    .img-box{
+        height: 100%;
+        display: flex;
+        }
+
+    .article{
+        width: 25%;
+        margin-right: 2rem;
+    }
+
+    .article h3{
+        font-size: 1rem;
+        margin: .5rem  0;
+    }
+
+    .article:nth-last-of-type(1){
+        margin-right: 0
+    }
+}

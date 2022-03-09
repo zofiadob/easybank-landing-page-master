@@ -6,7 +6,9 @@ export default function ArticleSection() {
   return (
     <div className='article-section'>
         <h2>Latest Articles</h2>
+        <div className='arti-box'>
         <Article />
+        </div>
         </div>
   )
 }
