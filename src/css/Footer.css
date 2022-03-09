@@ -1,9 +1,10 @@
 footer{
     background: hsl(233, 26%, 24%);
     text-align: center;
+    margin: 0;
 }
 
-.logo{
+.logo-footer{
     width: 40%;
     margin: 2.5rem 0 1.5rem 0;
 }
@@ -11,6 +12,12 @@ footer{
 .icon{
     width: 7%;
     margin: .45rem;
+    transition: filter .7s ease;
+}
+
+.icon:hover{
+    filter: invert(20%) sepia(13%) saturate(2431%) hue-rotate(79deg) brightness(92%) contrast(87%);
+    cursor: pointer;
 }
 
 ul{
@@ -22,6 +29,12 @@ ul{
 
 li{
     margin: 1rem 0;
+    transition: color .7s ease;
+    cursor: pointer;
+}
+
+li:hover{
+    color: hsl(136, 65%, 51%);;
 }
 
 .footer-button{

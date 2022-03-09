@@ -1,0 +1,43 @@
+@media screen and (min-width: 1000px){
+footer{
+    display: flex;
+    padding: 3rem 9rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-col{
+    margin: auto 0;
+    text-align: left;
+}
+
+.footer-col:nth-of-type(1){
+    width: 20%;
+}
+
+.right-col{
+    text-align: -moz-right;
+    text-align: -webkit-right;
+}
+
+.logo-footer{
+    width: 60%;
+    margin-bottom: 2rem;
+}
+
+.icon{
+    width: 9%;
+}
+
+.footer-button{
+    width: 160px;
+    margin: 0;
+}
+
+.copyright{
+    padding: 0;
+    font-size: 1rem;
+}
+
+}

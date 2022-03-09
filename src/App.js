@@ -8,6 +8,7 @@ import './css/DesktopNavbar.css'
 import './css/DesktopRequestSection.css'
 import './css/DesktopFunctionSection.css'
 import './css/DesktopArticleSection.css'
+import './css/DesktopFooter.css'
 
 function App() {
   return (
@@ -17,6 +18,23 @@ function App() {
       <FunctionSection />
       <ArticleSection />
       <Footer />
+
+
+      <div class="attribution">
+          Challenge by{" "}
+          <a
+            href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Frontend Mentor
+          </a>
+          . Coded by{" "}
+          <a href="https://www.frontendmentor.io/profile/zofiadob">
+            Zofia Dobrowolska
+          </a>
+          .
+        </div>
     </div>
   );
 }
