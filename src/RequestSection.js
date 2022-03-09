@@ -5,7 +5,7 @@ import './css/RequestSection.css'
 
 export default function RequestSection() {
   return (
-    <section className='request-section'>
+    <section className='request-section fade-in'>
         <div className='phone-box'>
         <img className='phones' src={phones} alt='phones' />
         </div>

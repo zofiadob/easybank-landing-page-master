@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
 html{
   box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -20,4 +22,22 @@ p{
   color: hsl(233, 8%, 62%);
   font-size: .9rem;
   line-height: 1.5rem;
+}
+
+
+/* atribution */
+
+.attribution{
+  background: hsl(233, 26%, 24%);
+  padding: .8rem 0;
+  color: white;
+}
+
+.attribution a{
+  color: white;
+  transition: color .7s ease;
+}
+
+.attribution a:hover{
+  color: hsl(136, 65%, 51%);
 }

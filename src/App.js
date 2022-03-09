@@ -11,8 +11,12 @@ import './css/DesktopArticleSection.css'
 import './css/DesktopFooter.css'
 
 function App() {
+  window.addEventListener("load", () => {
+    document.querySelector("body").classList.add("loaded"); 
+   });
+
   return (
-    <div className="App">
+    <main className="App">
       <Navbar />
       <RequestSection />
       <FunctionSection />
@@ -35,7 +39,7 @@ function App() {
           </a>
           .
         </div>
-    </div>
+    </main>
   );
 }
 
